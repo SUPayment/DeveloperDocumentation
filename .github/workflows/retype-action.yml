@@ -15,10 +15,10 @@ jobs:
       contents: write
 
     steps:
-      - uses: actions/[email protected]
+      - uses: actions/checkout@v2
 
-      - uses: retypeapp/[email protected]
+      - uses: retypeapp/action-build@latest
 
-      - uses: retypeapp/action[email protected]
+      - uses: retypeapp/action-github-pages@latest
         with:
           update-branch: true
